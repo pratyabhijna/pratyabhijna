@@ -5,7 +5,7 @@ const nextConfig = {
   pageExtensions: ['js', 'jsx', 'mdx', 'ts', 'tsx'],
   reactStrictMode: true,
   output: "export",
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/pratyabhijna-demo/' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/pratyabhijna/' : '',
   webpack(config) {
     config.module.rules.push({
       test: /\.svg$/,
